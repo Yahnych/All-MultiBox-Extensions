@@ -97,7 +97,7 @@ const ClientStatus = {
  Name:null,
  MouseX:NaN,
  MouseY:NaN,
- Score:stats.score,
+ Score:NaN,
  isAlive:!!(cells.mine | [])
 };
 window.ClientStatus = ClientStatus
